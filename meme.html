@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset='UTF-8' />
+        <title>Meme Gnerator</title>
+        <link rel='stylesheet' href='meme.css' />
+    </head>
+
+    <body>
+        <div class='title-container'>
+            <div class='title'>I CAN HAS MEMEZ?</div>
+            <div class='sub-title'>Fill out the form to start creating memes!</div>
+        </div>
+
+        <div class='header-container'>
+            <div class='header'>
+                <!-- <span>Imange URL</span> -->
+
+                <span>
+                    <form>
+                        <span class='label'><label for="image">Image URL</label></span>
+                        <input type="text" id="image" name="image"
+                            placeholder="What's the URL for your meme image?">
+                    </form>
+                </span>
+            </div>
+            <div class='header'>
+                <!-- <span>Text On Top</span> -->
+                <span>
+                    <form>
+                        <span class='label'><label for="top-text">Text On
+                                Top</label></span>
+                        <input type="text" id="top-text" name="top-text"
+                            placeholder="(Optional) What text do you want at the
+                            top of the meme?">
+                    </form>
+                </span>
+
+            </div>
+            <div class='header'>
+                <span>
+                    <form>
+                        <span class='label'><label for="bottom-text">Text
+                                On
+                                Bottom</label></span>
+                        <input type="text" id="bottom-text" name="bottom-text"
+                            placeholder="(Optional) What text do you want at the
+                            bottom of the meme?">
+                    </form>
+                </span>
+            </div>
+            <div class='bottom-header'>
+                <Button class='submit' type="submit">Add Meme</Button>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="meme-container">
+                <div class="meme">
+                    <span class="top-caption">this is messi </span>
+                    <span class="bottom-caption">this is messi </span>
+                    <img
+                        src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSk6nzSGOKXH1oN4ttI4NDYYFA6wmFTcKbi8MxuZHPTzZrlJchm'
+                        alt="">
+
+                </div>
+            </div>
+
+            <script src="meme.js"> </script>
+        </body>
+
+    </html>
