@@ -66,11 +66,7 @@ label {
 }
 
 .submit {
-<<<<<<< HEAD
-	background-color: aqua;
-=======
-	background-color: orange;
->>>>>>> test_commit
+	background-color: skyblue;
 	color: #ebebe0;
 	width: 90px;
 	height: 40px;
